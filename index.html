@@ -1,0 +1,545 @@
+﻿<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap 5 assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: 'Times New Roman';
+        }
+        .kutu{
+            background-color: white;
+        }
+        .nav-right{
+
+            float: right;
+            color: white;
+            display: table-cell;
+            margin-right: 5px;
+        }
+        
+        .yazi{
+            color:black;
+            text-decoration:none;
+        }
+        .yazi:hover {
+            color: blue;
+        }
+        .topics {
+            background-color: #656d1a;
+        }
+        
+      
+        .bos {
+            margin-left: 6%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <section class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img\image.jpg" alt="" width="170" height="20">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Today's sections
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li><a class="dropdown-item " href="#" aria-current="true">World</a></li>
+                            <li><a class="dropdown-item" href="#">Business</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Past six days</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Politics</a></li>
+                            <li><a class="dropdown-item" href="#">Society</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Business & Finance</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Times Radio</a>
+                    </li>
+
+                </ul>
+                <div class="table-align-middle">
+                    <ul>
+                        <li class="nav-right"><button type="button" class="btn btn-primary">Subscribe</button></li>
+
+                        <li class="nav-right p-2 "><a class="nav-link active" aria-current="page" href="#">Log in</a></li>
+                    </ul>
+                </div>
+
+
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    
+                </form>
+            </div>
+
+
+        </section>
+    </nav>
+
+    <section class="kutu container py-5 ">
+        <section class="row">
+            <article class="col md-12 mx-auto p-0 bg-black">
+                <img src="img\image2.jpg" class="resim img-fluid " />
+                <header class="icerik text-center text-white">
+                    <h1>Enjoy unlimited digital access.</h1>
+                    <h2>Read trusted, award-winning journalism.</h2>
+                    <h2>Just £1 for 6 months.</h2>
+                    <div class="nav-item ">
+                        <button type="button" class="btn btn-primary">Subscribe now</button>
+                    </div>
+                    <p>Already a subscriber? <a href="#">Login</a></p>
+                </header>
+            </article>
+        </section>
+        <section class="row border-bottom p-2">
+            <article class="col-5 p-0 border-end">
+                <header class="itemcontent p-2 border-bottom ">
+                    <a class="yazi fs-3">Johnson turns his back on green agenda</a>
+                    <p>
+                        Johnson turns his back on green agenda
+                        Cost of living crisis forces rethink on rewilding
+                    </p>
+                    <a>
+                        Boris Johnson has scaled back plans to rewild the country as the government retreats from the green agenda to focus on the cost of living crisis. Ministers last year announced a post-Brexit scheme that would pay farmers up to £800 million a year — a third of the farming budget — to transform...
+
+                    </a>
+                </header>
+                <header class="itemcontent p-2  ">
+                    <a class="yazi fs-3">Johnson turns his back on green agenda</a>
+                    <p>
+                        Johnson turns his back on green agenda
+                        Cost of living crisis forces rethink on rewilding
+                    </p>
+                    <a>
+                        Boris Johnson has scaled back plans to rewild the country as the government retreats from the green agenda to focus on the cost of living crisis. Ministers last year announced a post-Brexit scheme that would pay farmers up to £800 million a year — a third of the farming budget — to transform...
+
+                    </a>
+                </header>
+
+            </article>
+            <article class="col-2 p-0 border-end ">
+                <header class="itemcontent p-2">
+                    <a class="yazi fs-3">Johnson turns his back on green agenda</a>
+                    <p>
+                        Johnson turns his back on green agenda
+                        Cost of living crisis forces rethink on rewilding
+                    </p>
+                    <a>
+                        Boris Johnson has scaled back plans to rewild the country as the government retreats from the green agenda to focus on the cost of living crisis. Ministers last year announced a post-Brexit scheme that would pay farmers up to £800 million a year — a third of the farming budget — to transform...
+
+                    </a>
+                </header>
+
+            </article>
+            <article class="col-5 p-0">
+                <header class="itemcontent p-2">
+                    <a class="yazi fs-3">Johnson turns his back on green agenda</a>
+                    <p>
+                        Johnson turns his back on green agenda
+                        Cost of living crisis forces rethink on rewilding
+                    </p>
+                    <a>
+                        Boris Johnson has scaled back plans to rewild the country as the government retreats from the green agenda to focus on the cost of living crisis. Ministers last year announced a post-Brexit scheme that would pay farmers up to £800 million a year — a third of the farming budget — to transform...
+
+                    </a>
+                </header>
+
+            </article>
+        </section>
+        <section class="row p-2 border-bottom ">
+
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image3.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image4.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image5.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 "><img class="imgp img-fluid" src="img\image6.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+        </section>
+        <section class="row p-2 border-bottom ">
+
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image3.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image4.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image5.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 "><img class="imgp img-fluid" src="img\image6.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+        </section>
+        <section class="row p-2 border-bottom ">
+            <article class="col-3 py-2">
+                <p class="ustyazı fs-6 border-top border-5 ">WAR IN UKRAINE | MARK GALEOTTI</p>
+                <a href="#" class="yazi fs-2">‘Putin the Great’ and his budget empire can only deliver a fake victory<br /></a>
+                <a href="#" class="text-decoration-none text-dark fs-6">The fighting in east Ukraine has never been fiercer but it seems increasingly clear that neither side will be able to win this war for a long time to come. Meanwhile, the political costs for Vladimir Putin will only grow. As a result, the hunt is...</a>
+            </article>
+            <article class="col-9 py-2">
+                <img class="img-fluid w-75" src="img\image7.jpg" />
+
+            </article>
+        </section>
+        <section class="row">
+            <article class="col-12">
+                <header class="d-grid gap-2 col-6 mx-auto py-4">
+                    <button type="button" class="btn btn-outline-success ">Show more</button>
+
+                </header>
+            </article>
+        </section>
+        <!-- topics -->
+        <section class="row border-bottom">
+            <article class="topics md-12 ">
+                <a href="#" class="topicsa text-white text-decoration-none fs-2">World</a>
+            </article>
+            <article class="col-3 py-2">
+                <p class="ustyazı fs-6">WAR IN UKRAINE | MARK GALEOTTI</p>
+                <a href="#" class="yazi fs-2">‘Putin the Great’ and his budget empire can only deliver a fake victory<br /></a>
+                <a href="#" class="text-decoration-none text-dark fs-6">The fighting in east Ukraine has never been fiercer but it seems increasingly clear that neither side will be able to win this war for a long time to come. Meanwhile, the political costs for Vladimir Putin will only grow. As a result, the hunt is...</a>
+
+            </article>
+            <article class="col-6">
+                <img class="img-fluid p-2 border-end  " src="img\image8.jpg" />
+            </article>
+            <article class="col-3">
+                <img class="img-fluid py-2 " src="img\image9.jpg" />
+                <a href="#" class="yazi fs-2">Owners and activists inch towards common ground on guns<br /></a>
+                <a href="#" class="text-decoration-none text-dark fs-6">In the four years since 17 students and staff were shot dead at his high school, David Hogg has lost count of the...</a>
+
+            </article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image10.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image11.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 border-end "><img class="imgp img-fluid" src="img\image12.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+            <article class="col-3 "><img class="imgp img-fluid" src="img\image13.jpg" /><a href="#" class="yazi">As Moscow wages a grain war, we’re finding new ways to feed the planet</a></article>
+
+            <article class="d-grid gap-2 col-6 mx-auto py-4">
+                <button type="button" class="btn btn-outline-success ">Show more</button>
+
+            </article>
+            <!--comment-->
+            <article class="bg-danger md-12 ">
+                <a href="#" class="text-white text-decoration-none fs-2">Comment</a>
+            </article>
+            <article class="col-4 py-3 text-center border-end pb-3 border-bottom">
+                <a href="#" class="yazi fs-1">Our approach to employment isn’t working</a> <p class="fs-6">JAMES KIRKUP</p> <img class="imgp p-5 img-fluid" src="img\image14.jpg" />
+            </article>
+            <article class="col-8">
+                <img class="imgp img-fluid p-3 pb-3 border-bottom" src="img\image15.jpg" />
+            </article>
+            <article class="col-3 border-end py-2"><img class="imgp img-fluid" src="img\image16.jpg" /><a href="#" class="yazi">People will hurt your feelings — deal with it</a></article>
+            <article class="col-3 border-end py-2"><img class="imgp img-fluid" src="img\image17.jpg" /><a href="#" class="yazi">Voters may like Starmer just the way he is</a></article>
+            <article class="col-3 border-end py-2"><img class="imgp img-fluid" src="img\image19.jpg" /><a href="#" class="yazi">Kids’ lingo is fascinating — and ‘bare’ annoying</a></article>
+            <article class="col-3 py-2"><img class="imgp img-fluid" src="img\image20.jpg" /><a href="#" class="yazi">Give spare places in boarding schools to children in care</a></article>
+            <article class="d-grid gap-2 col-6 mx-auto py-4">
+                <button type="button" class="btn btn-outline-success ">Show more</button>
+            </article>
+            <!--business-->
+            <article class="bg-primary md-12 ">
+                <a href="#" class="text-white text-decoration-none fs-2">Business</a>
+            </article>
+            <article class="col-5 border-end">
+                <header class="asdas border-bottom p-3">
+                    <p class="ustyazı fs-6">COST OF LIVING</p>
+                    <a href="#" class="yazi fs-2">New warning on household spending<br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">British household spending will shrink next year, the CBI has warned, as it called on the government to take measures to stimulate business investment to prevent a wider economic downturn. The organisation’s latest economic forecast slashes growth this year and next and predicts that household...</a>
+                </header>
+                <header class="sadas p-3 ">
+                    <a href="#" class="yazi fs-2">Anger at Bank of England’s £200,000 rebrand<br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">Confidence in the Bank of England and Andrew Bailey, its governor, suffered a further blow yesterday when critics condemned a £200,000 contract given to external consultants to help to “define the essence of the organisation”. The Bank was told that paying an outside agency such a sum to draw up the mission statement was “ludicrous”. The...</a>
+                </header>
+            </article>
+            <article class="col-2 border-end">
+                <header class="itemcontent p-2">
+                    <img class="imgp img-fluid" src="img\image21.jpg" />
+                    <a href="#" class="yazi fs-2">Morrisons’ warehouses lined up for £600m sale <br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">
+                        An American private equity firm looks set to soon begin carving up Morrisons days after its £7 billion takeover of the British supermarket chain was formally approved. Clayton Dubilier & Rice is understood to be selling several
+                        Morrisons’ warehouses and food manufacturing plants. Would-be suitors have not been...
+                    </a>
+                </header>
+            </article>
+            <article class="col-5">
+                <a href="#" class="yazi fs-2">From Russia with love, but no Big Mac<br /></a>
+                <img class="imgp img-fluid p-2" src="img\image22.jpg" />
+            </article>
+            <article class="col-4 border-end py-2"><img class="imgp img-fluid" src="img\image23.jpg" /><a href="#" class="yazi fs-2">Safe Hands Plans’ adviser was under FCA investigation</a></article>
+            <article class="col-2 border-end py-2"><img class="imgp img-fluid" src="img\image24.jpg" /><a href="#" class="yazi fs-3">Only by focusing on profit can business deliver human progress</a></article>
+            <article class="col-4 border-end py-2"><img class="imgp img-fluid" src="img\image25.jpg" /><a href="#" class="yazi fs-2">Boom turns to bust on float bandwagon</a></article>
+            <article class="col-2 py-2"><img class="imgp img-fluid" src="img\image26.jpg" /><a href="#" class="yazi fs-3">Over-50s are retiring in droves, but will they be forced back into work?</a></article>
+            <article class="d-grid gap-2 col-6 mx-auto py-4">
+                <button type="button" class="btn btn-outline-success ">Show more</button>
+            </article>
+            <!--Sport-->
+            <article class="bg-success md-12 ">
+                <a href="#" class="text-white text-decoration-none fs-2">Sport</a>
+            </article>
+            <article class="col-5 border-end">
+                <header class="asdas border-bottom p-3">
+                    <p class="ustyazı fs-6">CRICKET | MIKE ATHERTON</p>
+                    <a href="#" class="yazi fs-2">Pope shows he can be apprentice to masterful Root as pair hit hundreds<br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">If there has been a better England batsman in the past 40 years than Joe Root, he has been hiding. Making batting look as natural as the breathing of air, and as enjoyable as a Sunday stroll on a warm spring day, Root delighted a full house at Trent Bridge with his fourth hundred in his past five...</a>
+                </header>
+                <header class="sadas p-3 ">
+                    <p class="ustyazı fs-6">FORMULA ONE</p>
+
+                    <a href="#" class="yazi fs-2">Back pain from bouncing car could put Hamilton out of next race<br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">Lewis Hamilton may be forced to miss next weekend’s Canadian Grand Prix after suffering excruciating back pain caused by his bouncing car during today’s Azerbaijan Grand Prix in Baku. Hamilton, who admitted that he had been “praying” for the race to end, struggled to get out of his car after finishing fourth and was seen to be clutching his...</a>
+                </header>
+            </article>
+            <article class="col-2 border-end">
+                <header class="itemcontent p-2">
+
+                    <img class="imgp img-fluid" src="img\image27.jpg" />
+                    <p class="ustyazı fs-6">FOOTBALL | HENRY WINTER</p>
+                    <a href="#" class="yazi fs-3">England fear a perfect storm of injury and fatigue <br /></a>
+                    <a href="#" class="text-decoration-none text-dark fs-6">
+                        Within 40 hours of the final whistle blowing on the last Premier League game on November 13, England’s squad fly out to the World Cup. Passengers? Only the fully fit can travel. There is no leeway once they leave that runway, no run-off period allowing players to recover in time. Gareth Southgate is now at the mercy...
+                    </a>
+                </header>
+            </article>
+            <article class="col-5 py-3">
+                <p class="ustyazı fs-6">PHIL BENNETT 1948-2022 | STEPHEN JONES</p>
+                <a href="#" class="yazi fs-2">Lions legend was master of the sidestep – and one of Wales’ most-loved players<br /></a>
+                <img class="imgp img-fluid p-2" src="img\image28.jpg" />
+            </article>
+            <article class="col-4 border-end py-2"><img class="imgp img-fluid" src="img\image29.jpg" /> <p class="ustyazı fs-6">CRICKET | STEVE JAMES</p><a href="#" class="yazi fs-2">Lees and Pope benefit from going back to basics</a></article>
+            <article class="col-2 border-end py-2"><img class="imgp img-fluid" src="img\image30.jpg" /> <p class="ustyazı fs-6">CRICKET | SIMON WILDE</p><a href="#" class="yazi fs-4">Safety-first approach? Not with Ben, Baz and their merry band of entertainers</a></article>
+            <article class="col-4 border-end py-2"><img class="imgp img-fluid" src="img\image31.jpg" /> <p class="ustyazı fs-6">FOOTBALL</p><a href="#" class="yazi fs-2">Rashford and Sancho ‘have a lot to do’ to make World Cup</a></article>
+            <article class="col-2 py-2"><img class="imgp img-fluid" src="img\image32.jpg" /> <p class="ustyazı fs-6">FOOTBALL | OWEN SLOT</p><a href="#" class="yazi fs-4">England blessed to have had Southagte – he remains a leader with rare gifts</a></article>
+            <article class="d-grid gap-2 col-6 mx-auto py-4">
+                <button type="button" class="btn btn-outline-success ">Show more</button>
+            </article>
+            <!--puzzles-->
+            <article class="bg-danger md-12" style="--bs-bg-opacity: .5;  ">
+                <a href="#" class="text-white text-decoration-none fs-2">Puzzles</a>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="col-4">
+                <header class="position-relative py-3">
+                    <img class="img-fluid" src="img\image33.jpg" />
+                    <a href="#" class="text-decoration-none text-black fs-2 p-3 position-absolute top-0 start-0">Crossword Club</a>
+                    <a href="#" class="playnow text-decoration-none fs-6 text-danger  position-absolute top-50 start-50">Play now ></a>
+                </header>
+            </article>
+            <article class="d-grid gap-2 col-6 mx-auto py-4">
+                <button type="button" class="btn btn-outline-success ">Show more</button>
+            </article>
+
+
+
+        </section>
+    </section>
+    
+    <footer id="footer" class="footer-1 bg-dark text-white p-3">
+        <section class="main-footer bg-dark text-white">
+            <section class="container">
+                <article class="row">
+                    <div class="col-3">
+                        <img class="float-start" src="img\image34.jpg" />
+
+                    </div>
+                </article>
+                <article class="row">
+
+                    <nav class="col-xs-12 col-sm-6 col-md-3">
+                        <h5 class="border-bottom border-top py-1">Quick Links</h5>
+                        <ul class="text-decoration-none text-white">
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Get Started</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Top Leaders</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Success Stories</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Event/Tickets</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">News</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Lifestyle</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <nav class="col-xs-12 col-sm-6 col-md-3 ">
+                        <h5 class="text-dark py-1">asdasdasd</h5>
+                        <ul class="text-decoration-none text-white">
+                            <li class="list-group-item">
+                                <a class="text-decoration-none text-white">Get Started</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Top Leaders</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Success Stories</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Event/Tickets</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">News</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Lifestyle</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">About</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <nav class="col-xs-12 col-sm-6 col-md-3">
+
+                        <h5 class="border-top border-bottom py-1">Get Started</h5>
+                        <ul class="text-decoration-none text-white">
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Get Started</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Top Leaders</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Success Stories</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Event/Tickets</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">News</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Lifestyle</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">About</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <nav class="col-xs-12 col-sm-6 col-md-3">
+                        <h5 class="text-dark py-1">asdasdasd</h5>
+                        <ul class="text-decoration-none text-white">
+                            <li class="list-group-item">
+                                <a class="text-decoration-none text-white">Get Started</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Top Leaders</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Success Stories</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Event/Tickets</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">News</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">Lifestyle</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="text-decoration-none text-white">About</a>
+                            </li>
+                        </ul>
+
+
+
+
+
+                    </nav>
+
+                    <div class="col-12">
+                        <p class="">© Times Newspapers Limited 2022.<br /></p>
+                        <p class="">Registered in England No. 894646. Registered office: 1 London Bridge Street, SE1 9GF. <img class="float-end" src="img\image35.jpg" /></p>
+                        
+                    </div>
+                    <nav class="col ">
+                        
+                            <a href="#" class="text-decoration-none text-white" >Privacy & cookie policy</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Licensing</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Cookie settings</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Site map</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Topics</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Commissioning terms</a>
+                            <a href="#" class="text-decoration-none text-white m-3">Terms and conditions</a>
+                        
+                    </nav>
+                </article>
+            </section>
+        </section>
+
+        
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
